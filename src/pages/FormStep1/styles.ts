@@ -13,7 +13,7 @@ export const Container = styled.div`
   hr {
     height: 1px;
     border: 0;
-    background-color: #563EAA;
+    background-color: #0F8191;
     margin: 30px 0;
   }
   label {
@@ -30,7 +30,7 @@ export const Container = styled.div`
       color: #ffffff;
       outline: 0;
       font-size: 15px;
-      background-color: #3E1FA3;
+      background-color: #252525;
     }
   }
   button {
@@ -44,8 +44,8 @@ export const Container = styled.div`
       cursor: pointer;
       margin-top: 30px;
       transition: 300ms;
-      :hover {
-        background: #B90F7A;
+      &:hover {
+        background: #FC427B;
       }
     }
 
